@@ -1,6 +1,6 @@
 // config/database.js
 module.exports = {
 
-    'url' : 'mongodb+srv://demo:demo@cluster0.q2ojb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', 
-    'dbName': 'demo'
+    'url' : 'mongodb+srv://vikiana:a123b@cluster0.6ozuol9.mongodb.net/SavageAuth?retryWrites=true&w=majority', 
+    'dbName': 'SavageAuth'
 };

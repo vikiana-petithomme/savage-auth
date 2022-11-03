@@ -1,7 +1,7 @@
 // server.js
 
 // set up ======================================================================
-// get all the tools we need
+// get all the  rtools we need
 var express  = require('express');
 var app      = express();
 var port     = process.env.PORT || 8080;
@@ -17,9 +17,10 @@ var session      = require('express-session');
 
 var configDB = require('./config/database.js');
 
-var db
-
+var db 
 // configuration ===============================================================
+
+
 mongoose.connect(configDB.url, (err, database) => {
   if (err) return console.log(err)
   db = database
